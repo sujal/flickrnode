@@ -2,9 +2,10 @@ var FlickrAPI= require('../lib/flickr').FlickrAPI;
 var sys= require('sys');
 
 
-var API_KEY= "enter here"
-var SHARED_SECRET= "enter here"
-var AUTHENTICATION_TOKEN= "enter here"
+var API_KEY= "put here"
+var SHARED_SECRET= "put here"
+var AUTHENTICATION_TOKEN= "put here"
+
 
 var flickr= new FlickrAPI(API_KEY, SHARED_SECRET);
 flickr.setAuthenticationToken(AUTHENTICATION_TOKEN);
